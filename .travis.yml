@@ -1,0 +1,21 @@
+sudo: false
+language: node_js
+node_js:
+- node
+install:
+- npm install
+script:
+- npm run lint
+- npm run build
+- npm run cover
+after_success:
+- npm run coveralls
+deploy:
+  provider: npm
+  email: 282387881@qq.com
+  api_key:
+    secure: YNmA79y6vJ/5qlavQsIhJe7nXcYX5ZYQvWpp6Mv5o5LEiG8o8pnk/RYMghx95DZ+H1PX0h7NL3lMVvt9NEuBY+wHsqpOq2mevrsjRvZzI+5ymIcU8cH0WSLAlSgF2XUZidNUCzn5LxmkSp5oIPRkvi/IPpnUJuc0icTpCkx2s+qxaVCez4+MRk9LLDj0+w2Jm/YKuQ/2A8KhAlxJCZx2qsUZzyuEwB270dzGpbXEy0mwhXgN+yh+AQKaX9NG1bG0lL5QfAk/8bQqY75mN3V6KjPiqLBaYHkNcPZyCWx/nRYBPSIW4a8esQPfRWrFWfnssFLATgiuLbe1IXk1pqtjb6PKR1r+ZTp9yxAqUMtg3DJJtaq5vsVqXMq7kvpRBefjeBzS3YM/h7LA2DPyp7DDtmzoz473zM0Y/aX72UBgl4TDBiRkUXkwiABo8c+CXXpewWPqgP2JdVqBBCCSt0okkkreQDeWoLPhnozha6wo7GrNU1P+UR8yhvB7f2iLXaJ2p1nLsEjucJIdm+caoZ33ovKcX+XYSk3rsYrTiEt2W2dg6VDuSh/HvHL9n3rH5f4R8yaberSZEcDVtINCVW3xKmBOa181JZr2sOD2y60DbDu6t5iohpi6+JSd5AKZeGOdf1GD3xBRCrt3MHdaKUoQx/2EdHeT4QRyZRmaFny0fcI=
+  on:
+    repo: Sarmay/converter
+    all_branches: true
+  skip_cleanup: true
