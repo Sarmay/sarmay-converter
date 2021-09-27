@@ -7,7 +7,7 @@
 > The following functions are temporarily realized: Arabic to Cyrillic, Cyrillic to Arabic, Arabic to Latin, Latin to Cyrillic
 
 [![npm version](https://img.shields.io/npm/v/@sarmay/converter.svg?style=flat-square)](https://www.npmjs.org/package/@sarmay/converter)
-[![Build Status](https://www.travis-ci.com/Sarmay/sarmay-converter.svg?branch=main)](https://www.travis-ci.com/Sarmay/sarmay-converter)    [![Coverage Status](https://coveralls.io/repos/github/Sarmay/sarmay-converter/badge.svg?branch=master)](https://coveralls.io/github/Sarmay/sarmay-converter?branch=master)   [![install size](https://packagephobia.now.sh/badge?p=@sarmay/converter)](https://packagephobia.now.sh/result?p=@sarmay/converter)
+[![Build Status](https://www.travis-ci.com/Sarmay/sarmay-converter.svg?branch=master)](https://www.travis-ci.com/Sarmay/sarmay-converter)    [![Coverage Status](https://coveralls.io/repos/github/Sarmay/sarmay-converter/badge.svg?branch=master)](https://coveralls.io/github/Sarmay/sarmay-converter?branch=master)   [![install size](https://packagephobia.now.sh/badge?p=@sarmay/converter)](https://packagephobia.now.sh/result?p=@sarmay/converter)
 [![GitHub issues](https://img.shields.io/github/issues/Sarmay/sarmay-converter)](https://github.com/Sarmay/sarmay-converter/issues)   [![GitHub forks](https://img.shields.io/github/forks/Sarmay/sarmay-converter)](https://github.com/Sarmay/sarmay-converter/network)   [![GitHub stars](https://img.shields.io/github/stars/Sarmay/sarmay-converter)](https://github.com/Sarmay/sarmay-converter/stargazers)
 
 

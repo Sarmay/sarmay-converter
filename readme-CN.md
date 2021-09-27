@@ -7,7 +7,7 @@
 > 暂时实现了以下功能：阿拉伯文转西里尔文、西里尔文转阿拉伯文、阿拉伯文转拉丁文、拉丁文转西里尔文
 
 [![npm version](https://img.shields.io/npm/v/@sarmay/converter.svg?style=flat-square)](https://www.npmjs.org/package/@sarmay/converter)
-[![Build Status](https://www.travis-ci.com/Sarmay/sarmay-converter.svg?branch=main)](https://www.travis-ci.com/Sarmay/sarmay-converter)    [![Coverage Status](https://coveralls.io/repos/github/Sarmay/sarmay-converter/badge.svg?branch=main)](https://coveralls.io/github/Sarmay/sarmay-converter?branch=main)   [![install size](https://packagephobia.now.sh/badge?p=@sarmay/converter)](https://packagephobia.now.sh/result?p=@sarmay/converter)
+[![Build Status](https://www.travis-ci.com/Sarmay/sarmay-converter.svg?branch=master)](https://www.travis-ci.com/Sarmay/sarmay-converter)    [![Coverage Status](https://coveralls.io/repos/github/Sarmay/sarmay-converter/badge.svg?branch=main)](https://coveralls.io/github/Sarmay/sarmay-converter?branch=main)   [![install size](https://packagephobia.now.sh/badge?p=@sarmay/converter)](https://packagephobia.now.sh/result?p=@sarmay/converter)
 [![GitHub issues](https://img.shields.io/github/issues/Sarmay/sarmay-converter)](https://github.com/Sarmay/sarmay-converter/issues)   [![GitHub forks](https://img.shields.io/github/forks/Sarmay/sarmay-converter)](https://github.com/Sarmay/sarmay-converter/network)   [![GitHub stars](https://img.shields.io/github/stars/Sarmay/sarmay-converter)](https://github.com/Sarmay/sarmay-converter/stargazers)
 
 
