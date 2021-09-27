@@ -21,10 +21,5 @@ module.exports = {
         include: /\.min\.js$/
       })
     ]
-  },
-  devServer: {
-    port: 8080,
-    contentBase: 'www',
-    open: true
   }
 }
