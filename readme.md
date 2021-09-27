@@ -1,6 +1,6 @@
 # @Sarmay/converter
 
-## English | [简体中文](https://github.com/Sarmay/sarmay-converter/blob/main/readme-CN.md)
+## English | [简体中文](https://github.com/Sarmay/sarmay-converter/blob/master/readme-CN.md)
 
 ### This is a tool for converting between Kazakh Arabic, Cyrillic and Latin.
 
