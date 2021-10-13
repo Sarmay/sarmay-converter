@@ -1,6 +1,6 @@
 {
   "name": "@sarmay/converter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This is a tool for converting between Kazakh Arabic, Cyrillic and Latin.",
   "main": "index.js",
   "scripts": {

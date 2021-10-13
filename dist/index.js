@@ -2,7 +2,7 @@
 	if(typeof exports === 'object' && typeof module === 'object')
 		module.exports = factory();
 	else if(typeof define === 'function' && define.amd)
-		define([], factory);
+		define("sarmayConverter", [], factory);
 	else if(typeof exports === 'object')
 		exports["sarmayConverter"] = factory();
 	else
@@ -219,11 +219,11 @@ function typeJudgment (string) {
 function checkLegitimacy (string, to, from) {
   // 判断是否为字符串
   if (typeof string !== 'string') {
-    throw new Error('The content entered must be a string;输入的内容必须是字符串。')
+    console.error('The content entered must be a string;输入的内容必须是字符串。')
   }
   // 判断是否为空
   if (!string || (string && !string.trim())) {
-    throw new Error('The input content cannot be empty;输入的内容不能为空。')
+    console.error('The input content cannot be empty;输入的内容不能为空。')
   }
   // 判断参数是否为空
   if (!to) {
@@ -236,7 +236,7 @@ function checkLegitimacy (string, to, from) {
 
 function conversion (string = '', to = 'Cyrillic', from = null) {
   // 检验参数的合法性
-  checkLegitimacy(string, to, from)
+  // checkLegitimacy(string, to, from)
   // 判断输入文字属于那个语言
   let inputLang = from
   if (!from) {

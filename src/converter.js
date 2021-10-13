@@ -31,16 +31,12 @@ function checkLegitimacy (string, to, from) {
   if (typeof string !== 'string') {
     throw new Error('The content entered must be a string;输入的内容必须是字符串。')
   }
-  // 判断是否为空
-  if (!string || (string && !string.trim())) {
-    throw new Error('The input content cannot be empty;输入的内容不能为空。')
-  }
   // 判断参数是否为空
   if (!to) {
-    throw new Error('Essential parameters cannot be empty;必备参数不能为空。')
+    throw new Error('Essential parameters “to” cannot be empty;必备参数to不能为空。')
   }
   if (from && !['Cyrillic', 'Arabic', 'Latin'].includes(from)) {
-    throw new Error('Essential parameters from must be one of [Cyrillic,Arabic,Latin];字符串必须为x之一。')
+    throw new Error('Essential parameters “from” must be one of [Cyrillic,Arabic,Latin];必备参数from必须为[Cyrillic,Arabic,Latin]之一。')
   }
 }
 

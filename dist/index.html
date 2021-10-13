@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test</title>
+  <script src="https://unpkg.com/@sarmay/web-ime/dist/index.min.js"></script>
+  <script src="./index.js"></script>
+</head>
+<body>
+  <div>
+    <textarea name="values" id="values" cols="50" rows="10"></textarea>
+    <div id="show"></div>
+  </div>
+  <script>
+    var values = document.getElementById('values');
+    var show = document.getElementById('show');
+    values.addEventListener("keydown", function(event) {
+       sarmayIme('kz', event);
+       show.innerText = sarmayConverter(values.value,'Cyrillic','Arabic')
+    });
+  </script>
+</body>
+</html>

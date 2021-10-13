@@ -89,8 +89,8 @@ console.log(value)
 
   methods: {
     keydownHandel(event) {
-      const inputValue = webIME('kz', event)
-      this.newValue = converter(inputValue,'Cyrillic','Arabic')
+      webIME('kz', event)
+      this.newValue = converter(this.value,'Cyrillic','Arabic')
     }
   }
 }
@@ -122,8 +122,8 @@ console.log(value)
       var values = document.getElementById('values');
       var show = document.getElementById('show');
       values.addEventListener("keydown", function(event) {
-         var newValue = sarmayIme('kz', event);
-         show.innerText = sarmayConverter(newValue,'Cyrillic','Arabic')
+         sarmayIme('kz', event);
+         show.innerText = sarmayConverter(values.value,'Cyrillic','Arabic')
       });
     </script>
   </body>
